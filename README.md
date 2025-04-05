@@ -2,7 +2,7 @@
 
 # End-to-end Speaker Verification (/w Spoof Aware) - PyTorch Implementation
 
-This is a PyTorch implementation of **Speaker Verification** based on deep learning and language models, supporting speaker recognition in the [Vietnamese dataset](https://github.com/datvithanh/vietnamese-sv-dataset).
+A PyTorch-based implementation of **Speaker Verification** utilizing deep learning architectures and language models, with support for speaker recognition on the [Vietnamese dataset](https://github.com/datvithanh/vietnamese-sv-dataset) by Dean Nguyen.
 </div>
 
 ## Table of Contents
