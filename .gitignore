@@ -1,0 +1,9 @@
+# folder ignore
+.venv/
+data/*
+exps/*
+__pycache__/
+
+# file ignore
+example.*
+testing_lib*.py

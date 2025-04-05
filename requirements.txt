@@ -1,0 +1,7 @@
+asteroid-filterbanks
+librosa
+numpy
+pandas
+pydub
+soundfile
+tqdm

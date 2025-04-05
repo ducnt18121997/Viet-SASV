@@ -1,0 +1,23 @@
+### Dataset configuration
+TRAIN_LIST: ... # The path of the training list
+EVAL_LIST: ... # The path of the evaluation list
+COHORT_PATH: ... # The path of the cohort data
+MUSAN_PATH: ... # The path to the MUSAN set
+RIR_PATH: ... # The path to the RIR set
+
+
+### Model configuration
+SAVE_PATH: "exps/default/" # The path to save the score.txt and models
+INITIAL_MODEL: null # The path of the initial model
+
+### Model settings
+FRONTEND_VERSION: "mel_spectrogram" # Choose front-end for main model [mel_spectrogram, sinc_net]
+BACKEND_VERSION: "ecapa_tdnn" # Choose back-end for main model [assist, ecapa_tdnn, ds_tdnn, xvector]
+
+### Training settings
+MAX_EPOCH: 200 # The maximum number of epochs
+BATCH_SIZE: 64 # The batch size
+N_CPU: 4 # The number of loader threads
+TEST_STEP: 1 # Test and save every [test_step] epochs
+USE_AUGMENT: true # Use augmentation during training phase
+ONLY_EVAL: false # Only do evaluation
